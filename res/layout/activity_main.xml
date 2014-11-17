@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+        
+        <!-- russian radio -->
+        <LinearLayout
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:background="@drawable/ma_bg_1"
+	        android:orientation="vertical" >
+	        
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/btn_ru_radio"
+                    android:layout_centerInParent="true"
+                    android:onClick="gotoRURadio"
+                    android:clickable="true" />
+                
+            </RelativeLayout>
+            
+	    </LinearLayout>
+	    
+        <!-- english radio -->
+        <LinearLayout
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:background="@drawable/ma_bg_2"
+	        android:orientation="vertical" >
+	        
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/btn_en_radio"
+                    android:layout_centerInParent="true"
+                    android:onClick="gotoENRadio"
+                    android:clickable="true" />
+                
+            </RelativeLayout>
+            
+	    </LinearLayout>
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+        
+        <!-- spanish radio -->
+        <LinearLayout
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:background="@drawable/ma_bg_3"
+	        android:orientation="vertical" >
+	        
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/btn_sp_radio"
+                    android:layout_centerInParent="true"
+                    android:onClick="gotoSPRadio"
+                    android:clickable="true" />
+                
+            </RelativeLayout>
+            
+	    </LinearLayout>
+	    
+        <!-- german radio -->
+        <LinearLayout
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:background="@drawable/ma_bg_4"
+	        android:orientation="vertical" >
+	        
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/btn_gr_radio"
+                    android:layout_centerInParent="true"
+                    android:onClick="gotoGRRadio"
+                    android:clickable="true" />
+                
+            </RelativeLayout>
+            
+	    </LinearLayout>
+	    
+    </LinearLayout>
+
+</LinearLayout>

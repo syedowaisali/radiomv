@@ -1,0 +1,160 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+	<LinearLayout	    
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:layout_marginBottom="60dp"
+	    android:background="@drawable/color_bg"
+	    android:gravity="center" >
+	    
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:gravity="center" >
+	        
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/cont_head" />
+	        
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/pobox"	            
+	            android:layout_marginTop="70dp" />
+	        
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/cn1"	            
+	            android:layout_marginTop="25dp"
+	            android:clickable="true"
+	            android:onClick="openCOne" />
+	        
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/c_email"	            
+	            android:layout_marginTop="6dp"
+	            android:clickable="true"
+	            android:onClick="openEmail" />
+	        
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/cn2"	            
+	            android:layout_marginTop="35dp"
+	            android:clickable="true"
+	            android:onClick="openCTwo" />
+	        
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/cn3"	            
+	            android:layout_marginTop="35dp"
+	            android:clickable="true"
+	            android:onClick="openCThree" />
+	        
+	    </LinearLayout>
+	    
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="60dp"
+	    android:orientation="horizontal"
+	    android:layout_alignParentBottom="true"
+	    android:background="#fff" >
+	    
+	    <!-- donate tab -->
+	    <LinearLayout
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:gravity="center"
+	        android:background="#f64f00" >
+	        
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/btn_donate"
+	            android:clickable="true"
+	            android:onClick="gotoDonate" />
+	        
+	    </LinearLayout>
+	    
+	    <!-- chat tab -->
+	    <LinearLayout
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:gravity="center"
+	        android:background="#f64f00" >
+	        
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/btn_chat"
+	            android:clickable="true"
+	            android:onClick="gotoChat" />
+	        
+	    </LinearLayout>
+	    
+	    <!-- radio tab -->
+	    <LinearLayout
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:gravity="center"
+	        android:background="#f64f00" >
+	        
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/btn_radio"
+	            android:clickable="true"
+	            android:onClick="gotoRadio" />
+	        
+	    </LinearLayout>
+	    
+	    <!-- chat social -->
+	    <LinearLayout
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:gravity="center"
+	        android:background="#f64f00" >
+	        
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/btn_social"
+	            android:clickable="true"
+	            android:onClick="gotoSocial" />
+	        
+	    </LinearLayout>
+	    
+	    <!-- contact tab -->
+	    <LinearLayout
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:gravity="center" >
+	        
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/btn_contact_active"
+	            android:clickable="true"
+	            android:onClick="gotoContact" />
+	        
+	    </LinearLayout>
+	    
+	</LinearLayout>
+
+</RelativeLayout>

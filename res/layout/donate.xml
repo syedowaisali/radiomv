@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+	<LinearLayout	    
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:layout_marginBottom="60dp" >
+	    
+	    <WebView
+	        android:id="@+id/donate_view"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent" />
+	    
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="60dp"
+	    android:orientation="horizontal"
+	    android:layout_alignParentBottom="true"
+	    android:background="#fff" >
+	    
+	    <!-- donate tab -->
+	    <LinearLayout
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:gravity="center" >
+	        
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/btn_donate_active" />
+	        
+	    </LinearLayout>
+	    
+	    <!-- chat tab -->
+	    <LinearLayout
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:gravity="center"
+	        android:background="#f64f00" >
+	        
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/btn_chat"
+	            android:clickable="true"
+	            android:onClick="gotoChat" />
+	        
+	    </LinearLayout>
+	    
+	    <!-- radio tab -->
+	    <LinearLayout
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:gravity="center"
+	        android:background="#f64f00" >
+	        
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/btn_radio"
+	            android:clickable="true"
+	            android:onClick="gotoRadio" />
+	        
+	    </LinearLayout>
+	    
+	    <!-- chat social -->
+	    <LinearLayout
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:gravity="center"
+	        android:background="#f64f00" >
+	        
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/btn_social"
+	            android:clickable="true"
+	            android:onClick="gotoSocial" />
+	        
+	    </LinearLayout>
+	    
+	    <!-- chat contact -->
+	    <LinearLayout
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:gravity="center"
+	        android:background="#f64f00" >
+	        
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/btn_contact"
+	            android:clickable="true"
+	            android:onClick="gotoContact" />
+	        
+	    </LinearLayout>
+	    
+	</LinearLayout>
+
+</RelativeLayout>
