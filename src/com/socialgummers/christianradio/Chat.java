@@ -99,12 +99,10 @@ public class Chat extends RadioActivity {
     }
     
     // goto donate
- 	public void gotoDonate(View v){
- 		/*
+ 	public void gotoDonate(View v){ 		
  		finish();
  		Intent intent = new Intent(this, Donate.class);
- 		startActivity(intent);
- 		*/
+ 		startActivity(intent); 		
  	}
  	
  	// goto chat
